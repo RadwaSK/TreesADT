@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="LinkedBased">
+      <UniqueIdentifier>{7b3c2802-c47a-424b-b14c-cc4ac68a91df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper ADT%27s">
+      <UniqueIdentifier>{e6c813f4-0f99-4761-b0c4-0764a0f2b85f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ArrayBased">
+      <UniqueIdentifier>{f04499f0-e87a-4f64-9c8b-4512bfb93d5d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Helper ADT%27s\BinaryNode.cpp">
+      <Filter>Helper ADT%27s</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper ADT%27s\LinkedQueue.cpp">
+      <Filter>Helper ADT%27s</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper ADT%27s\LinkedStack.cpp">
+      <Filter>Helper ADT%27s</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper ADT%27s\Node.cpp">
+      <Filter>Helper ADT%27s</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedBased\BinarySearchTree.cpp">
+      <Filter>LinkedBased</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedBased\BinaryTree.cpp">
+      <Filter>LinkedBased</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedBased\AVLTree.cpp">
+      <Filter>LinkedBased</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayBased\MaxHeap.cpp">
+      <Filter>ArrayBased</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayBased\MinHeap.cpp">
+      <Filter>ArrayBased</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Helper ADT%27s\BinaryNode.h">
+      <Filter>Helper ADT%27s</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper ADT%27s\LinkedQueue.h">
+      <Filter>Helper ADT%27s</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper ADT%27s\LinkedStack.h">
+      <Filter>Helper ADT%27s</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper ADT%27s\Node.h">
+      <Filter>Helper ADT%27s</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedBased\BinarySearchTree.h">
+      <Filter>LinkedBased</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedBased\BinaryTree.h">
+      <Filter>LinkedBased</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedBased\AVLTree.h">
+      <Filter>LinkedBased</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayBased\MaxHeap.h">
+      <Filter>ArrayBased</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayBased\MinHeap.h">
+      <Filter>ArrayBased</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
